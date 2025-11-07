@@ -4,4 +4,4 @@ build:
   install: npm install
   start: node server.js
 domains:
-  - microcash.imperialinversiones.com.pe
+  - test1.caluriantech.com.pe
