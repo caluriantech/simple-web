@@ -1,0 +1,7 @@
+name: simple-web
+type: node
+build:
+  install: npm install
+  start: node server.js
+domains:
+  - microcash.imperialinversiones.com.pe
