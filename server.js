@@ -2,16 +2,6 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
 
-app.use(express.static('public'));
-
-app.listen(port, () => {
-  console.log(`Servidor corriendo en http://localhost:${port}`);
-});
-
-const express = require('express');
-const app = express();
-const port = process.env.PORT || 3000;
-
 // Habilitar trust proxy (necesario si usas Dokploy o cualquier proxy)
 app.enable('trust proxy');
 
